@@ -1,0 +1,289 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    width: 100%;
+}
+hr{
+    background-color: lightgray;
+}
+
+/* Start Navbar */
+
+.navbar .navbar-brand img{
+    height: 100px;
+}
+.navbar .custom-nav-2 .nav-item .nav-link.active{
+    color: #fd7e14 ;
+}
+.navbar .custom-nav-2 .nav-item .nav-link{
+    color: #1C2833 ;
+    font-family: 'Righteous', cursive;
+    font-size: 18px;
+}
+.navbar .custom-nav-2 .nav-item .nav-link:hover{
+    color: #fd7e14 ;
+}
+/* End Navbar */
+
+/* Start Header */
+header{
+    margin-top: 126px;
+}
+header .banner{
+    background-color: #fd7e14 ;
+    height: 45vh;
+    width: 100%;
+    /* background-size: cover; */
+    border-bottom-right-radius: 40%;
+}
+header .banner img{
+    height: 350px;
+}
+.banner h2{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    
+}
+.banner h3{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 20px;
+}
+.banner .btn{
+    background-color: #29B6F6 ;
+    padding: 10px 40px;
+    border-radius: 50px;
+    color: white;
+    font-weight: bold;
+}
+/* End Header */
+
+/* Start Main Sec */
+.main-sec .heading{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    position: relative; 
+    text-shadow: 2px 1px 5px black;
+    padding-top: 20px;
+}
+.main-sec .heading::after{
+    content: '';
+    background: #fd7e14;
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    /* margin-top: 20px; */
+    transform: translateX(-50px);
+}
+
+.main-sec span{
+    color: #fd7e14;
+    font-size: 40px;
+}
+.main-sec .comp-rep{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.main-sec .laptop-rep{
+    font-family: 'Josefin Sans', sans-serif;
+}
+/* End Main Sec */
+
+/* Start about */
+.aboutus .about{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    position: relative; 
+    text-shadow: 2px 1px 5px black;
+    padding-top: 20px;
+} 
+.aboutus .about::after{
+    content: '';
+    background: #fd7e14;
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    /* margin-top: 20px; */
+    transform: translateX(-50px);
+}
+.about span{
+    color: #fd7e14;
+    font-size: 40px;
+}
+.counter-cus .fa-smile-beam{
+    color: #fd7e14;
+    font-size: 40px;
+}
+.aboutus .counter-card{
+    margin-top: 130px !important;
+}
+.counter-card .counter-cus{
+    width: 30%;
+    padding: 15px;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 1px 2px 3px gray;
+}
+.aboutus .person .per-1{
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    box-shadow: 1px 2px 3px gray;
+    padding: 20px;
+    background-color: white;
+}
+.aboutus .person .per-1 .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.aboutus .person .per-2 .text h3{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.aboutus .person .per-2{
+    /* border: 1px solid black; */
+    border-radius: 30px;
+    padding: 20px;
+    box-shadow: 1px 2px 3px gray;
+    background-color: white;
+}
+.aboutus .person .per-1 img{
+    /* border: 1px solid red; */
+    height: 200px;
+    border-radius: 50%;
+}
+.aboutus .person .per-2 img{
+    /* border: 1px solid red; */
+    height: 200px;
+    border-radius: 50%;
+}
+.aboutus .fa-user-tie{
+    font-size: 20px;
+}
+
+.aboutus .foot a{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+}
+/* .card{
+    box-shadow: 2px 2px 3px gray;
+    transition: 0.5s;
+}
+.card:hover{
+    transform: translateY(-20px);
+    transition: 0.5s;
+}
+.card h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.card .fa-facebook-official{
+    font-size: 20px;
+} */
+
+
+/* End about */
+
+/* Start Contact */
+.footer{
+    background-color: #1C2833;
+}
+.footer h2{
+    font-family: 'Josefin Sans', sans-serif;
+    letter-spacing: 3px;
+    position: relative; 
+    text-shadow: 2px 1px 5px black;
+    /* padding-top: 20px; */
+}
+.footer .contact::after{
+    content: '';
+    background: #fd7e14;
+    width: 80px;
+    height:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    /* margin-top: 20px; */
+    transform: translateX(-50px);
+}
+.footer span{
+    color: #fd7e14;
+    font-size: 40px;
+}
+.footer h4{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.footer p{
+    font-family: sans-serif;
+}
+.copy{
+    font-family: 'Courier New', Courier, monospace;
+}
+.footer .fa-facebook-square{
+    padding: 20px;
+    color: white;
+    margin-right: px;
+    line-height: 6px;
+    font-size: 25px;
+}
+.footer .fa-envelope{
+    color: white;
+    font-size: 25px;
+}
+.footer hr{
+    background-color: white;
+}
+.footer .copy a{
+    color: #fd7e14;
+}
+
+/* Media */
+@media(max-width:500px){
+    header .banner .cybr-text{
+        font-size: 18px;
+    }
+    header .banner h1{
+        font-size: 30px;
+    }
+    header{
+        margin-top: 126px;
+    }
+    header .banner{
+        background-color: #fd7e14 ;
+        height: 50vh;
+        /* border-bottom-right-radius: 40%; */
+        /* width: 100%; */
+    }
+    header .banner img{
+        height: 400px;
+        display: none;
+    }
+    .main-sec .ser-text{
+        margin-top: 50px !important;
+    }
+    .aboutus .per-1{
+        margin-bottom: 30px;
+    }
+    .counter-card .counter-cus{
+        width: 100%;
+        padding: 15px;
+        background-color: white;
+        border-radius: 30px;
+        box-shadow: 1px 2px 3px gray;
+    }
+    .footer .social-text{
+        margin-top: 10px;
+        /* margin-bottom: 10px; */
+    }
+    .footer .map{
+        margin-top: 20px;
+    }
+}
